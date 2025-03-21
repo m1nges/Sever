@@ -6,12 +6,149 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Барбершоп Север</title>
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Connecting swiper.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-  <header>
+  <a target="_blank" class="header-content-wrap__a" href="https://n1373714.yclients.com/">Записаться</a>
+  <header class="header">
+    <div class="header__content-wrap">
+      <h1 class="section-header">Север — Твой стиль<br>Твои правила.</h1>
+      <img class="header__logo" src="img/header-images/logo.png" alt="Логотип">
 
+    </div>
   </header>
+  <main>
+    <section class="main__image-gallery">
+      <h1 class="section-header">Барбершоп “Север” - это строго и стильно.</h1>
+      <div class="image-gallery__image-sections">
+        <img src="img/main images/image-gallery/image-1.png" alt="Фото барбершопа 1" class="image-gallery__img">
+        <img src="img/main images/image-gallery/image-2.png" alt="Фото барбершопа 2" class="image-gallery__img">
+        <img src="img/main images/image-gallery/image-3.png" alt="Фото барбершопа 3" class="image-gallery__img">
+        <img src="img/main images/image-gallery/image-4.png" alt="Фото барбершопа 4" class="image-gallery__img">
+      </div>
+    </section>
+    <section class="main__our-works">
+      <h1 class="section-header">Наши работы</h1>
+      <div class="image-gallery__image-sections">
+        <img src="img/main images/our-works/our-work-image-1.png" alt="Фото нашей работы 1" class="our-works__img">
+        <img src="img/main images/our-works/our-work-image-2.png" alt="Фото нашей работы 2" class="our-works__img">
+        <img src="img/main images/our-works/our-work-image-3.png" alt="Фото нашей работы 3" class="our-works__img">
+        <img src="img/main images/our-works/our-work-image-4.png" alt="Фото нашей работы 4" class="our-works__img">
+      </div>
+    </section>
+    <section class="main__our-works-slider">
+      <h1 class="section-header">Наши работы</h1>
+      <div class="slider-section">
+        <div class="swiper sample-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/main images/our-works/our-work-image-1.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/main images/our-works/our-work-image-2.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/main images/our-works/our-work-image-3.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/main images/our-works/our-work-image-4.png" alt="">
+            </div>
+          </div>
+          <div class="buttons">
+            <div id="pagination" class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main_services-section">
+      <h1 class="section-header">Прайс-лист</h1>
+      <div class="services-section__columns-wrapper">
+        <div class="services-section__column-wrapper">
+          <div class="service-block">
+            <p class="p_text">Мужская стрижка</p>
+            <p class="p_text">1500 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Детская стрижка(дети до 10 лет)</p>
+            <p class="p_text">1000 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Стрижка машинкой</p>
+            <p class="p_text">800 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Стрижка ножницами</p>
+            <p class="p_text">1700 руб.</p>
+          </div>
+        </div>
+        <div class="services-section__column-wrapper">
+          <div class="service-block">
+            <p class="p_text">Стрижка “Фейд”</p>
+            <p class="p_text">1200 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Моделирование бороды и усов</p>
+            <p class="p_text">800 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Тонирование бороды</p>
+            <p class="p_text">1000 руб.</p>
+          </div>
+          <div class="service-block">
+            <p class="p_text">Ваксинг</p>
+            <p class="p_text">300 руб.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__contacts-section">
+      <h1 class="section-header">Где мы находимся и как с нами связаться</h1>
+      <p class="p_text"><strong>Адрес:</strong> Сергиев-Посад, проспект Красной Армии, 240</p>
+      <div class="contacts-section__contacts-block">
+        <h1 class="section-header">Контакты</h1>
+        <div class="contacts-block__phone-block">
+          <img class="phone-block__img" src="img/main images/contacts/tel-image.png" alt="Телефон">
+          <a class="p_text" href="tel: +79253782631">+7 (925) 378-26-31</a>
+        </div>
+        <div class="contacts-block__socials">
+          <a target="_blank" href="https://wa.me/9253782631" class="socials__a">
+            <img src="img/main images/contacts/whatsapp.png" alt="Ватсап" class="socials__img">
+          </a>
+          <a target="_blank" href="https://t.me/Serjiksold" class="socials__a">
+            <img src="img/main images/contacts/telegram.png" alt="Телеграм" class="socials__img">
+          </a>
+          <a target="_blank" href="https://vk.com/soldat99" class="socials__a">
+            <img src="img/main images/contacts/vk.png" alt="ВК" class="socials__img">
+          </a>
+        </div>
+      </div>
+      <div class="map">
+        <div class="recolor-map-shape"></div>
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A77e4c1d09509fd615cbcb3a9c19a341d5d71d49b2c21e034cfcb03fca030f6be&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__content-wrapper">
+      <img class="footer__img" src="img/header-images/logo.png" alt="Логотип">
+      <p class="footer-text">Осуществляет деятельность в качестве самозанятого: Солдатов Сергей Владимирович<br>
+        г. Сергиев Посад, проспект Красной Армии, 240<br>
+        Email: <a href="mailto:serj.soldatov@mail.ru">serj.soldatov@mail.ru</a>
+      </p>
+    </div>
+  </footer>
+  <script src="scripts.js"></script>
 </body>
 
 </html>
