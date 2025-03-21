@@ -405,17 +405,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: pulseMobile 1s infinite ease-in-out;
-  }
-
-  .header-content-wrap__a.compact::after {
-    content: "Записаться";
     font-size: 12px;
     white-space: normal;
     text-align: center;
     overflow-wrap: break-word;
     word-break: break-word;
     color: white;
+    animation: pulseMobile 1s infinite ease-in-out;
   }
 }
 
